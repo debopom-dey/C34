@@ -5,7 +5,7 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Mouse = Matter.Mouse;
 const Constraint = Matter.Constraint;
-const MouseConstraint = Matter.Constraint;
+const MouseConstraint = Matter.MouseConstraint;
 var canvas,world,engine,mConstraint;
 var bob1,bob2,bob3,bob4,bob5,roof,rope,bobDiameter
 function preload()
